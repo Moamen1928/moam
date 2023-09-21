@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+    
+}
+@media  (min-width: 375px) {
+    .mentor{
+        width: 300px;
+
+        
+    }
+}
+/* Large */
+
+@media  (min-width: 1440px) {
+    .mentor{
+        width: 1440px;
+    }
+}
+.mentor{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 600px;
+    margin: 15px auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 14px 0px rgb(187, 187, 187);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.perant{
+    background:linear-gradient( to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%)) ;
+    color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.Continue{
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    padding: 20px;
+    border-radius: 42px;
+
+}
+
+.sumer{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 25px 25px 0;
+    padding: 0 25px 0 25px;
+}
+.sumer h3{
+    text-align: left;
+    font-weight: bold;
+    font-size: 19px;}
+
+
+.icon{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-width: 250px;
+}
+.icon div{
+    min-width: 250px;
+    margin-bottom: 13px;
+    border-radius: 10px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+.num{
+    color: black;
+    font-weight: bold;
+}
+.p1{
+    display: flex;
+    justify-content: center;
+}
+.Reaction{
+    background-color: hsla(0, 100%, 67%, 0.1);
+    color:hsl(0, 100%, 67%) ;
+}
+.Memory{
+    color: hsl(39, 100%, 56%);
+    background-color: hsl(39, 100%, 56%, 0.1);
+}
+.Verbal{
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 37%, 0.1);
+}
+.Visual{
+    color: hsl(234, 85%, 45%);
+    background-color: hsl(234, 85%, 45%, 0.1);
+}
+.perant div{
+    width: 170px;
+    height: 170px;
+    margin-left: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+.p1 span{
+    opacity: 0.5;
+}
